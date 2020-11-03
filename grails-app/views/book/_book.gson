@@ -1,0 +1,7 @@
+import com.objectcomputing.example.Book
+
+model {
+	Book book
+}
+
+json g.render(book, [resolveTemplate: false])
